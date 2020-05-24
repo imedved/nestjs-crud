@@ -6,7 +6,7 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 import { CropModule } from './crop/crop.module';
 
 @Module({
-  imports: [TypeOrmModule.forRoot(), ProductModule, CropModule],
+  imports: [TypeOrmModule.forRoot(), CropModule],
   controllers: [AppController],
   providers: [AppService],
 })
