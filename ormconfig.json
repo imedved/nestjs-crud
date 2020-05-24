@@ -4,6 +4,5 @@
     "dist/product/product.js",
     "dist/crop/crop.js"
   ],
-  "synchronize": true,
-  "location": "./db"
+  "synchronize": true
 }
